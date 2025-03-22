@@ -1,0 +1,66 @@
+/*   body   */
+body,
+.text,
+p,
+h2,
+h3,
+h4 {
+  font-family: "IBM Plex Sans Arabic", cairo;
+}
+/* Global Style */
+.navbar-nav .dropdown-menu,
+.about-content,
+.footer,
+.header .logo,
+.team .column,
+.contact-info,
+.faq .accordion-header,
+.accordion-body,
+.services-content,
+.contact-info-item  {
+  text-align: right;
+}
+.header .welcome-msg h3 {
+  font-size: 28px;
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+  margin-right: 0;
+}
+.navbar-expand-lg .navbar-nav {
+  margin-left: 0 !important;
+  margin-right: auto;
+}
+.main-menu ul li::before {
+  right: auto;
+  left: -2px;
+}
+.contact-info-item {
+  padding-right: 55px;
+  padding-left: 0;
+}
+.contact-info-item i {
+  left: auto;
+  right: 0;
+}
+.testimonials-item .img-box i {
+  right: calc(100% - 15px);
+  left: auto;
+}
+.faq .accordion-header {
+  padding: 20px 30px 20px 50px;
+}
+.faq .accordion-header::before {
+  left: 10px;
+  right: auto;
+}
+.about .title::after {
+  content: "من نحن";
+}
+/* Responsive Style */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    text-align: right;
+  }
+}
